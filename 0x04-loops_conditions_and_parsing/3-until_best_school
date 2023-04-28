@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script print "Best School" 10 time using untill loop.
+a=1
+until [ ! "$a" -le 10 ]
+do
+	echo "Best School"
+	((a++))
+done
