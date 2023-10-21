@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# displays corrent files in directory.
-list1=$(ls)
-for i in $list1
-do
-echo "$i" | cut -d "-" -f2
-done
